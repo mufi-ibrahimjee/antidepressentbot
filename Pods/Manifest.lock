@@ -1,0 +1,52 @@
+PODS:
+  - ApiAI (0.7.2):
+    - ApiAI/AudioFileConverter (= 0.7.2)
+    - ApiAI/Core (= 0.7.2)
+    - ApiAI/Events (= 0.7.2)
+    - ApiAI/ResponseMapping (= 0.7.2)
+    - ApiAI/UIKit (= 0.7.2)
+    - ApiAI/UserEntities (= 0.7.2)
+    - ApiAI/VoiceFileRequest (= 0.7.2)
+    - ApiAI/VoiceRequest (= 0.7.2)
+  - ApiAI/AudioFileConverter (0.7.2):
+    - ApiAI/Core
+  - ApiAI/Core (0.7.2)
+  - ApiAI/Events (0.7.2):
+    - ApiAI/Core
+  - ApiAI/ResponseMapping (0.7.2):
+    - ApiAI/Core
+  - ApiAI/UIKit (0.7.2):
+    - ApiAI/Core
+    - ApiAI/VoiceRequest
+  - ApiAI/UserEntities (0.7.2):
+    - ApiAI/Core
+  - ApiAI/VoiceFileRequest (0.7.2):
+    - ApiAI/Core
+  - ApiAI/VoiceRequest (0.7.2):
+    - ApiAI/Core
+  - Magnetic (2.0.9)
+  - NRSpeechToText (1.0.0)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - ApiAI (~> 0.7)
+  - Magnetic
+  - NRSpeechToText
+  - SwiftyJSON (~> 4.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ApiAI
+    - Magnetic
+    - NRSpeechToText
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  ApiAI: d4b49d3736f33ce6f3ef66dc33c0e0fccb23579e
+  Magnetic: a2eacd0bdc145e28d9800d9d08050679c628bad3
+  NRSpeechToText: 93b0835094319438db63e0d82899364bc0f9bba3
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: f07071fed555d8d36bfc5d271bb16da78d647765
+
+COCOAPODS: 1.5.0
